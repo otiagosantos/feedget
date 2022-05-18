@@ -1,7 +1,5 @@
-// import { prisma } from "./prisma";
-import { PrismaClient } from "@prisma/client";
+import { prisma } from "./prisma";
 import express from "express";
-import { json } from "stream/consumers";
 import nodemailer from "nodemailer";
 
 const server = express();
@@ -16,10 +14,6 @@ server.post("/feedbacks", async (request, response) => {
             user: "2b49f1457ef4ad",
             pass: "55a484032d9ff9"
         }
-    });
-
-    const prisma = new PrismaClient({
-        log: ['query']
     });
 
     const feedback = await prisma.feedback.create({
