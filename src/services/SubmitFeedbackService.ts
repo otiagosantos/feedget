@@ -1,4 +1,4 @@
-import { IMailAdapter } from "../adapter/IMailAdapter";
+import { IMailAdapter } from "../adapters/IMailAdapter";
 import { IFeedbackRepository } from "../repositories/IFeedbackRepository";
 
 interface ISubmitFeedbackRequest {
@@ -19,6 +19,18 @@ class SubmitFeedbackService {
 
     async execute (request: ISubmitFeedbackRequest) {
         const { type, comment, screenshot } = request;
+
+        if(!type) {
+            throw new Error('Type is required.');
+        }
+
+        if(!comment) {
+            throw new Error('Comment is required.');
+        }
+
+        if(screenshot && !screenshot.startsWith('data:image/png;base64')) {
+            throw new Error('Invalis image format.');
+        }
 
         await this.feedbackRepository.create({
             type,
