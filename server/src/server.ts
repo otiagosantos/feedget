@@ -8,4 +8,4 @@ server.use(cors());
 server.use(express.json());
 server.use(routes);
 
-server.listen(process.env.PORT, () => console.log("Server On"));
+server.listen(process.env.PORT || 3333, () => console.log("Server On"));
