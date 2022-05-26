@@ -74,7 +74,7 @@ $ npm install
 
 Ainda dentro da pasta `web` crie um arquivo com o seguinte nome `.env.local` e o seguinte conteúdo:
 
-```json
+```js
 VITE_API_URL="http://localhost:3333"
 ```
 
