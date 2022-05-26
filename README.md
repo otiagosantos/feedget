@@ -82,7 +82,7 @@ Do outro lado, o desenvolvedor irá receber um e-mail com a categoria, descriç�
 ### Clone do projeto
 
 ```bash
-$ git clone https://github.com/otiagosantos/nlw-return.git
+$ git clone https://github.com/otiagosantos/feedget.git
 ```
 
 **Para que o projeto seja funcional e possa fazer cadastros e envio dos feedbacks por email, será necessário configurar o servidor e aplicação web separadamente.**
@@ -188,7 +188,19 @@ Server On
 
 ---
 
-## Sobre Projeto e Autoria
+## Sobre o Projeto e Autoria
+### Ideia
 O projeto foi desenvolvido em acompanhamento da 8ª edição da NLW a qual foi produzida pela [Rocketseat](https://www.rocketseat.com.br/).
 
+### Deploy
+O deploy da versão **web** foi feita na plataforma [Vercel](https://vercel.com/). E a versão **servidor**  no [Railway App](https://railway.app/).
+
+### Detalhes Técnicos
+O projeto conta com os padrões de REST API e alguns conceitos de [SOLID](https://pt.wikipedia.org/wiki/SOLID).
+
+Foram utilizados testes unitários com [Jest](https://jestjs.io/) para otimizar a qualidade e tempo de desenvolvimento da api / server. E a programação dos testes estão presentes no repositório.
+
+Você pode testa-los após configurar o servidor a partir de um [clone do projeto](#Clone-do-projeto) do projeto através do comando `npm run test` no terminal.
+
+### Autoria
 O projeto tem pequenas personalização próprias do [autor deste repositório](https://github.com/otiagosantos).
