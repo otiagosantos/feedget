@@ -3,6 +3,19 @@
 <!-- Imagem divulgação do projeto -->
 <img src="github/feedget-capa0.75x.png" alt="Capa do Projeto Feedget">
 
+---
+
+* [Descrição](#Descrição)
+* [Funcionalidades do Projeto](#Funcionalidades-do-Projeto)
+* [Link Para Testar Projeto](#Link-Para-Testar-Projeto)
+* [Principais Tecnologias Utilizadas](#Principais-Tecnologias-Utilizadas)
+* [Clonar e Rodar Localmente](#Clonar-e-Rodar-Localmente)
+  * [Requisitos](#Requisitos)
+  * [Clone do projeto](#Clone-do-projeto)
+  * [Configurar lado cliente](#Configuração-lado-servidor)
+  * [Configuração lado servidor]($Configuração-lado-servidor)
+* [Sobre Projeto e Autoria](#Sobre-Projeto-e-Autoria)
+
 ## Descrição
 Feedget é a idealização de um widget de feedbacks para outros projetos. Ou seja, com o feedget instalado em um site, o usuário pode enviar um feedback de usabilidade para o desenvolvedor.
 
@@ -20,12 +33,9 @@ Nele, o usuário irá escrever seu feedback dentro das categorias `BUG`, `IDEIA`
 Do outro lado, o desenvolvedor irá receber um e-mail com a categoria, descrição e a screenshot se tiver sido tirada pelo usuário.
 
 <!-- Gif de recebimento por email. -->
-<div style="display: flex; justify-content: space-around;">
-  <div style="display: flex; flex-direction: column; align-items: center">
-    <img src="github/feedget03.gif" alt="Exemplo de recebimento de email" width="80%">
-    <label>Exemplo de recebimento do feedback via email</label>
-  </div>
-</div>
+
+### Exemplo de recebimento do feedback via email
+<img src="github/feedget03.gif" alt="Exemplo de recebimento de email" width="80%">
 
 
 ---
@@ -50,20 +60,18 @@ Do outro lado, o desenvolvedor irá receber um e-mail com a categoria, descriç�
 
 ## Principais Tecnologias Utilizadas
 ### Backend (server)
-* Node.JS
-* Express
-* Typescript
-* Prisma
+* [Node.JS](https://nodejs.org/en/)
+* [Express](https://expressjs.com/pt-br/)
+* [Typescript](https://www.typescriptlang.org/)
+* [Prisma](https://www.prisma.io/)
 
 ### Frontend (Web)
-* ReactJS
-* Typescript
-* Nodemailer
-* Jest
+* [ReactJS](https://reactjs.org/)
+* [Typescript](https://www.typescriptlang.org/)
+* [Nodemailer](https://nodemailer.com/about/)
+* [Jest](https://jestjs.io/)
 
 ---
-
-
 
 ## Clonar e Rodar Localmente
 ### Requisitos
@@ -79,7 +87,7 @@ $ git clone https://github.com/otiagosantos/nlw-return.git
 **Para que o projeto seja funcional e possa fazer cadastros e envio dos feedbacks por email, será necessário configurar o servidor e aplicação web separadamente.**
 
 
-### Configurar lado cliente (interface web)
+### Configurar lado cliente
 
 No seu terminal ou prompt de comando execute os comandos:
 
