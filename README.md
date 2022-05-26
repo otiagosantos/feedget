@@ -12,8 +12,8 @@
 * [Clonar e Rodar Localmente](#Clonar-e-Rodar-Localmente)
   * [Requisitos](#Requisitos)
   * [Clone do projeto](#Clone-do-projeto)
-  * [Configurar lado cliente](#Configuração-lado-servidor)
-  * [Configuração lado servidor]($Configuração-lado-servidor)
+  * [Configurar lado cliente](#Configuração-lado-cliente)
+  * [Configuração lado servidor](#Configuração-lado-servidor)
 * [Sobre Projeto e Autoria](#Sobre-Projeto-e-Autoria)
 
 ## Descrição
