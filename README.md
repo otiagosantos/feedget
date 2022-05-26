@@ -1,7 +1,7 @@
 # Feedget
 
 <!-- Imagem divulgação do projeto -->
-<img src="github/feedget-capa0.75x.png" alt="Capa do Projeto Feedget" width="80%" style="margin-left: 50%; transform: translateX(-50%)">
+<img src="github/feedget-capa0.75x.png" alt="Capa do Projeto Feedget">
 
 ## Descrição
 Feedget é a idealização de um widget de feedbacks para outros projetos. Ou seja, com o feedget instalado em um site, o usuário pode enviar um feedback de usabilidade para o desenvolvedor.
@@ -9,16 +9,11 @@ Feedget é a idealização de um widget de feedbacks para outros projetos. Ou se
 Nele, o usuário irá escrever seu feedback dentro das categorias `BUG`, `IDEIA` ou `OUTRO`, podendo capturar uma screenshot do momento e envia-la junto a descrição.
 
 <!-- Gif do processo de envio de feedback -->
-<div style="display: flex; justify-content: space-around;">
-  <div style="display: flex; flex-direction: column; align-items: center">
-    <img src="github/feedget01.gif" alt="Exemplo de uso" width="80%">
-    <label>Navegação com mouse</label>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="github/feedget02.gif" alt="Exemplo de uso com acessibilidade" width="80%">
-    <label>Acessibilidade disponível sem uso de mouse</label>
-  </div>
-</div>
+### Navegação com mouse
+<img src="github/feedget01.gif" alt="Exemplo de uso" width="80%">
+
+### Acessibilidade disponível sem uso de mouse
+<img src="github/feedget02.gif" alt="Exemplo de uso com acessibilidade" width="80%">
 
 <br>
 
