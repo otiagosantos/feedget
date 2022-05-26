@@ -12,7 +12,7 @@
 * [Clonar e Rodar Localmente](#Clonar-e-Rodar-Localmente)
   * [Requisitos](#Requisitos)
   * [Clone do projeto](#Clone-do-projeto)
-  * [Configurar lado cliente](#Configuração-lado-cliente)
+  * [Configuração lado cliente](#Configuração-lado-cliente)
   * [Configuração lado servidor](#Configuração-lado-servidor)
 * [Sobre Projeto e Autoria](#Sobre-Projeto-e-Autoria)
 
@@ -87,7 +87,7 @@ $ git clone https://github.com/otiagosantos/nlw-return.git
 **Para que o projeto seja funcional e possa fazer cadastros e envio dos feedbacks por email, será necessário configurar o servidor e aplicação web separadamente.**
 
 
-### Configurar lado cliente
+### Configuração lado cliente
 
 No seu terminal ou prompt de comando execute os comandos:
 
