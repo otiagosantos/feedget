@@ -27,7 +27,7 @@ Do outro lado, o desenvolvedor irá receber um e-mail com a categoria, descriç�
 
 ## Link Para Testar Projeto
 
-[Teste o Feedget Clicando Aqui!!](https://nlw-return-impulse-aoi04p062-otiagosantos.vercel.app/)
+<a href="https://nlw-return-impulse-aoi04p062-otiagosantos.vercel.app/" target="_blank">Teste o Feedget Clicando Aqui!!</a>
 
 ---
 
