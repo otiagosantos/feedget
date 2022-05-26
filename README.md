@@ -68,6 +68,7 @@ Do outro lado, o desenvolvedor irá receber um e-mail com a categoria, descriç�
 ### Frontend (Web)
 * [ReactJS](https://reactjs.org/)
 * [Typescript](https://www.typescriptlang.org/)
+* [Tailwind](https://tailwindcss.com/)
 * [Nodemailer](https://nodemailer.com/about/)
 * [Jest](https://jestjs.io/)
 
